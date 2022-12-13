@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+body{
+    background: #000;
+    color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    margin-top: 0.3rem;
+    font-size: 2.5rem;
+}
+
+#dogImage img{
+    margin-top: 0.2rem;
+    width: 35rem;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+button{
+    margin: 0.2rem;
+    width: 15rem;
+    height: 4rem;
+    font-weight: 900;
+    font-size: 1.5rem;
+    border-radius: 1.2rem;
+
+
+}
